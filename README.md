@@ -39,4 +39,4 @@
 
 ## 相关资源
 
-[点击此处](https://www.baidu.com/]
+[点击此处](https://www.baidu.com]
