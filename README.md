@@ -1,4 +1,5 @@
 # 创客基地成员任务清单
+![study photo](/img/TIM截图20191106122101.jpg)
 
 ## zero
 
