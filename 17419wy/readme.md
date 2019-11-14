@@ -1,4 +1,4 @@
-[Alarnzearn](https://github.com/Alarnearn) 
+[Alarnzearn](https://github.com/Alarnearn) :https://github.com/Alarnearn/
 # 17419wy
 * 本周的学习计划：
    * 1、完成专业相关作业
@@ -40,19 +40,30 @@ _你也**可以** 组合使用他们_
 **~~斜粗体删除线1~~***	        	  
 ~~***斜粗体删除线2***~~   
 
-### <--- Unordered (无序列表) -->
-##### 语法：<br>
+### <--- Unordered (列表) -->
+##### （1）无序列表语法：<br>
+使用 * ，+ ，- 表示无序列表。 <br>
+注意：符号后面一定要有一个空格，起到缩进的作用。<br>
+举例：
+`- 无序列表1`  >>> - 无序列表1
+`+ 无序列表2`  >>> + 无序列表2
+`* 无序列表3`  >>> * 无序列表3
+
+
+##### （3）无序列表语法：<br>
  ```
  * Item 1 <br>
  * Item 2 <br>
    * Item 2a <br>
    * Item 2b <br>
  ```
-##### 呈现效果:
+<br>**呈现效果:
 * Item 1
 * Item 2
   * Item 2a
   * Item 2b
+  
+ 
 
 ### <-- picture (图片) -->
 基本格式：![alt](URL title)
