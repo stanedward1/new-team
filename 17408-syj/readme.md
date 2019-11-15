@@ -169,20 +169,6 @@ C --> D
 ---------------------------
 [参考文档](http://flowchart.js.org/)
 
-```mermaid
-flowchat
-st=>start: 开始
-e=>end: 结束
-op=>operation: 我的操作
-cond=>condition: 确认？
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-
-
-
-
 
 
 [个人主页](https://www.baidu.com/)
