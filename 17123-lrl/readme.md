@@ -28,11 +28,11 @@ Linux、macOS、Solaris、Windows、Raspberry Pi都可以安装Git。
 
 首先，创建一个新目录
 
-![image-20191112204151437](C:\Users\Administrator\Desktop\1700130123-刘仁利-创客基地任务\one\imgs\1-1)
+![image-20191112204151437](imgs\1-1)
 
 通过git init命令将其目录变成Git可以管理的仓库
 
-![image-20191112204426424](C:\Users\Administrator\Desktop\1700130123-刘仁利-创客基地任务\one\imgs\1-2)
+![image-20191112204426424](imgs\1-2)
 
 .git目录是跟踪管理版本库的。（不要轻易改动）
 
@@ -42,15 +42,15 @@ Linux、macOS、Solaris、Windows、Raspberry Pi都可以安装Git。
 
 在readme.txt文件里面输入
 
-![image-20191112210856318](C:\Users\Administrator\Desktop\1700130123-刘仁利-创客基地任务\one\imgs\1-3)
+![image-20191112210856318](imgs\1-3)
 
 命令如下
 
-![image-20191112210942951](C:\Users\Administrator\Desktop\1700130123-刘仁利-创客基地任务\one\imgs\1-4)
+![image-20191112210942951](imgs\1-4)
 
 再将文件提交到仓库中
 
-![image-20191112211032347](C:\Users\Administrator\Desktop\1700130123-刘仁利-创客基地任务\one\imgs\1-5)
+![image-20191112211032347](imgs\1-5)
 
 此命令中-m后面输入的是本次提交的说明，可以输入任何内容。
 
@@ -58,31 +58,31 @@ git commit命令执行后会告诉你，1 file change，2 insertions：插入两
 
 #### 3-2修改readme.txt文件
 
-![image-20191112213300807](C:\Users\Administrator\Desktop\1700130123-刘仁利-创客基地任务\one\imgs\3-2-1)
+![image-20191112213300807](imgs\3-2-1)
 
 然后使用 `git status`  查看状态
 
-![image-20191112213437605](C:\Users\Administrator\Desktop\1700130123-刘仁利-创客基地任务\one\imgs\3-2-2)
+![image-20191112213437605](imgs\3-2-2)
 
  上面的命令输出告诉我们，`readme.txt`被修改过了，但还没有准备提交的修改。 
 
 若记不清楚上次怎么修改了我们可以使用 `git diff`这个命令 。
 
-![image-20191112213608925](C:\Users\Administrator\Desktop\1700130123-刘仁利-创客基地任务\one\imgs\3-2-3)
+![image-20191112213608925](imgs\3-2-3)
 
 再使用 `git status`  查看状态
 
-![image-20191112213843152](C:\Users\Administrator\Desktop\1700130123-刘仁利-创客基地任务\one\imgs\3-2-4)
+![image-20191112213843152](imgs\3-2-4)
 
 ### 四、版本回退
 
 若修改文本太多次，我们可以用 `git log`命令查看 
 
-![image-20191112214544926](C:\Users\Administrator\Desktop\1700130123-刘仁利-创客基地任务\one\imgs\4-1)
+![image-20191112214544926](imgs\4-1)
 
 简化输出信息加上`--pretty=oneline`参数 
 
-![image-20191112214700188](C:\Users\Administrator\Desktop\1700130123-刘仁利-创客基地任务\one\imgs\4-2)
+![image-20191112214700188](imgs\4-2)
 
 需要友情提示的是，你看到的一大串类似`73b05...`的是`commit id`（版本号），和SVN不一样，Git的`commit id`不是1，2，3……递增的数字，而是一个SHA1计算出来的一个非常大的数字，用十六进制表示，而且你看到的`commit id`和我的肯定不一样，以你自己的为准。为什么`commit id`需要用这么一大串数字表示呢？因为Git是分布式的版本控制系统。
 
@@ -92,11 +92,11 @@ git commit命令执行后会告诉你，1 file change，2 insertions：插入两
 
 现在，我们要把当前版本`append GPL`回退到上一个版本`add distributed`，就可以使用`git reset`命令。
 
-![image-20191112215335047](C:\Users\Administrator\Desktop\1700130123-刘仁利-创客基地任务\one\imgs\4-3)
+![image-20191112215335047](imgs\4-3)
 
 查看状态
 
-![image-20191112215535433](C:\Users\Administrator\Desktop\1700130123-刘仁利-创客基地任务\one\imgs\4-4)
+![image-20191112215535433](imgs\4-4)
 
 ### 五、管理修改
 
@@ -104,15 +104,15 @@ git commit命令执行后会告诉你，1 file change，2 insertions：插入两
 
 第一步，对readme.txt进行修改
 
-![image-20191113192405426](C:\Users\Administrator\Desktop\1700130123-刘仁利-创客基地任务\one\imgs\5-1-1)
+![image-20191113192405426](imgs\5-1-1)
 
 第二步 再次修改
 
-![image-20191113192512051](C:\Users\Administrator\Desktop\1700130123-刘仁利-创客基地任务\one\imgs\5-1-2)
+![image-20191113192512051](imgs\5-1-2)
 
 第三步 提交： 
 
-![image-20191113192644242](C:\Users\Administrator\Desktop\1700130123-刘仁利-创客基地任务\one\imgs\5-3)
+![image-20191113192644242](imgs\5-3)
 
 第四步查看状态
 
