@@ -5,17 +5,29 @@
 快捷键
 ---------------------------
 撤销：Ctrl/Command + Z
+
 重做：Ctrl/Command + Y
+
 加粗：Ctrl/Command + B
+
 斜体：Ctrl/Command + I
+
 标题：Ctrl/Command + Shift + H
+
 无序列表：Ctrl/Command + Shift + U
+
 有序列表：Ctrl/Command + Shift + O
+
 检查列表：Ctrl/Command + Shift + C
+
 插入代码：Ctrl/Command + Shift + K
+
 插入链接：Ctrl/Command + Shift + L
+
 插入图片：Ctrl/Command + Shift + G
+
 查找：Command + F
+
 替换：Command + G
 
 标题
