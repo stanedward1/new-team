@@ -61,11 +61,11 @@ pwd   用于显示当前的目录
 
 cat   查看文件内容
 
-###Git命令
-
+### Git命令
 
 [点此去](https://www.git-scm.com/book/zh/v2/)
 
+[初始界面](https://github.com/Thorns-sea-of-clouds/images/blob/master/git.png)
 
 
 # 个人测试
@@ -77,4 +77,13 @@ cat   查看文件内容
 <br />
 
 <img src="https://github.com/Thorns-sea-of-clouds/images/blob/master/%E6%98%9F%E7%A9%BA02.jpg" width="150" height="150" alt="图片加载失败时，显示这段字"/>
+
+# 个人学习
+
+**CSDN
+
+**https://www.52pojie.cn/
+
+**百度一下，你全知道
+
 
