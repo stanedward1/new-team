@@ -150,5 +150,12 @@ Git没有权限控制功能，没有权限控制的Git是很难保护核心代�
 5.我想推荐的学习资源：
 ```
 我想推荐的是网上学习网站：中国大学生MOOC网，这里有许多大学的优秀老师在里面讲授知识，很详细想细致，值得推荐；
-另外，我还想推荐网上的墨者学院，还有bugkuCTF,也是很好的比赛学习网站平台。
+介绍：中国大学生MOOC：是国内优质的中文MOOC学习平台,由爱课程网携手网易云课堂打造。平台拥有包括985高校在内提供的千余门课程。
+链接地址：https://www.icourse163.org/
+另外，我还想推荐线上的BugkuCTF:BugkuCTF平台是免费的CTF训练平台,题目数量多网上解析全面对新手入门友好,也是很好的比赛学习网站平台。
+链接地址:https://new.bugku.com/
 ```
+<a href="https://www.icourse163.org/" target="_blank">中国大学生MOOC</a>
+
+<a href="https://new.bugku.com/" target="_blank">BugkuCTF</a>
+
