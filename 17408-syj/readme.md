@@ -92,10 +92,10 @@ cat   查看文件内容
 
 # 个人学习
 
-** CSDN**
+**CSDN**
 
-** https://www.52pojie.cn/**
+**https://www.52pojie.cn/**
 
-** 百度一下，你全知道**
+**百度一下，你就知道**
 
 
