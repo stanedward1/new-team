@@ -28,7 +28,7 @@ Linux、macOS、Solaris、Windows、Raspberry Pi都可以安装Git。
 
 首先，创建一个新目录
 
-![image-20191112204151437](\imgs\1-1)
+https://github.com/niuniu-YOYO/new-team/blob/master/17123-lrl/imgs/1-1
 
 通过git init命令将其目录变成Git可以管理的仓库
 
