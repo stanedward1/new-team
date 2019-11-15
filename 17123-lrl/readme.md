@@ -28,11 +28,11 @@ Linux、macOS、Solaris、Windows、Raspberry Pi都可以安装Git。
 
 首先，创建一个新目录
 
-![image-20191112204151437](imgs\1-1)
+![image-20191112204151437](\imgs\1-1)
 
 通过git init命令将其目录变成Git可以管理的仓库
 
-![image-20191112204426424](imgs\1-2)
+![image-20191112204426424](\imgs\1-2)
 
 .git目录是跟踪管理版本库的。（不要轻易改动）
 
