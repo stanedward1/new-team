@@ -47,9 +47,16 @@
 
 
 # git小学习
+**其实git命令有许多和Linux的命令一样**
+**例如：**
+mkdir 创建目录  
+cd    进入到目录里面
+pwd   用于显示当前的目录
+cat   查看文件内容
 
 
 
+# 个人测试
 [个人主页](https://www.baidu.com/)
 <br />
 <br />
