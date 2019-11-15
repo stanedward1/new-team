@@ -61,6 +61,9 @@ pwd   用于显示当前的目录
 
 cat   查看文件内容
 
+###Git命令
+[点此去](https://www.git-scm.com/book/zh/v2/)
+
 
 
 # 个人测试
