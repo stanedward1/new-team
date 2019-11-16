@@ -26,15 +26,15 @@ $cd gittutorcn
 $git init
 ```
 git 将会作出以下的回应<br>
-Initialized empty Git repository in/[yourpath]/.git或
-(Initialized empty Git repository in /Users/1a/gittutorcn/.git/
-)<br>
+**Initialized empty Git repository in/[yourpath]/.git** 或
+**(Initialized empty Git repository in /Users/1a/gittutorcn/.git/
+)** <br>
 这样，一个空的版本库就创建好了，并在当前目录中创建一个叫 .git 的子目录。你可以用 ls -a 查看一下，并请注意其中的三项内容：<br>
 * 一个叫 HEAD 的文件，我们现在来查看一下它的内容：
 `$cat.git/HEAD` 
-现在 HEAD 的内容应该是这样：`ref:refs/heads/master` <br>
+现在 *HEAD* 的内容应该是这样：`ref:refs/heads/master` <br>
 我们可以看到，HEAD 文件中的内容其实只是包含了一个索引信息，并且，这个索引将总是指向你的项目中的当前开发分支。<br>
-* 一个叫 objects 的子目录，它包含了你的项目中的所有对象，我们不必直接地了解到这些对象内容，我们应该关心是存放在这些对象中的项目的数据。
+* 一个叫 *objects* 的子目录，它包含了你的项目中的所有对象，我们不必直接地了解到这些对象内容，我们应该关心是存放在这些对象中的项目的数据。
 * 请注意：master 是默认的分支，这也是为什么 .git/HEAD 创建的时候就指向 master 的原因，尽管目前它其实并不存在。 git 将假设你会在 master 上开始并展开你以后的工作，除非你自己创建你自己的分支。<br>
 另外，这只是一个约定俗成的习惯而已，实际上你可以将你的工作分支叫任何名字，而不必在版本库中一定要有一个叫 master 的分支，尽管很多 git 工具都认为 master 分支是存在的。
 2. 增加内容
@@ -46,7 +46,7 @@ $echo"SnakeZero">snake
 ``
 我们再用 git add 命令将这两个文件加入到版本库文件索引当中：
 `$git add hello snake`
-git add 实际上是个脚本命令，它是对 git 内核命令 git update-index 的调用。因此上面的命令和下面的命令其实是等价的：<br>
+git add 实际上是个脚本命令，它是对 git 内核命令 **git update-index** 的调用。因此上面的命令和下面的命令其实是等价的：<br>
 `$git update-index --add hello snake`
 如果你要将某个文件从 git 的目录跟踪系统中清除出去，同样可以用 **git update-index** 命令。例如：`$git update-index --force-remove foo.c`
 3. 提交内容到版本库：`git commit`
@@ -72,7 +72,7 @@ git diff 命令将比较当前的工作目录和版本库数据库中的差异�
 `$echo'这段是后来加的'>snake`
 我们再来比较一下，当前的工作目录和版本库中的数据的差别。<br>
 `$gitdiff`<br>
-差异将以典型的 patch 方式表示出来：
+差异将以典型的 *patch* 方式表示出来：
 ```
 diff--gita/snakeb/snake
 index3b85043..d79f20a100644
@@ -81,7 +81,7 @@ index3b85043..d79f20a100644
 @@-1+1@@
 -snakezero
 ```
-+这段是后来加的,此时，我们可以再次使用组合命令 git add 和 git commit 将我们的工作提交到版本库中。
++这段是后来加的,此时，我们可以再次使用组合命令**git add** 和 **git commit** 将我们的工作提交到版本库中。
 ``
 $git add snake
 $git commit -m "new day for git"
