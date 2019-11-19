@@ -50,7 +50,7 @@ git国内下载地址： https://github.com/waylau/git-for-win
 
 - 注意`git config`命令的`--global`参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。 
 
-![image-20191112204917366](C:\江南烧酒的dell笔记本\文档\创客基地\17411的第一次任务文档\img\image-20191112204917366.png)
+![image-20191112204917366](https://github.com/stanedward1/new-team/blob/master/17411-llb/img/image-20191112204917366.png)
 
 -  **通过`git init`命令把这个目录变成Git可以管理的仓库：** （忘了截图emmmmm）
 
@@ -85,7 +85,7 @@ git国内下载地址： https://github.com/waylau/git-for-win
 
   
 
-  ![image-20191112205300631](img\image-20191112205300631.png)
+  ![image-20191112205300631](https://github.com/stanedward1/new-team/blob/master/17411-llb/img/image-20191112205300631.png)
 
   
 
@@ -111,7 +111,7 @@ git国内下载地址： https://github.com/waylau/git-for-win
 
 -  Git提供了一个命令`git reflog`用来记录你的每一次命令： 
 
-![image-20191112205448572](img\image-20191112205448572.png)
+![image-20191112205448572](https://github.com/stanedward1/new-team/blob/master/17411-llb/img/image-20191112205448572.png)
 
 -  每次修改，如果不用`git add`到暂存区，那就不会加入到`commit`中。 
 
@@ -157,7 +157,7 @@ git国内下载地址： https://github.com/waylau/git-for-win
 
   
 
-  ![image-20191112211004377](img\image-20191112211004377.png)
+  ![image-20191112211004377](https://github.com/stanedward1/new-team/blob/master/17411-llb/img/image-20191112211004377.png)
 
 
 
@@ -165,15 +165,15 @@ git国内下载地址： https://github.com/waylau/git-for-win
 
 
 
-![image-20191112212429212](img\image-20191112212429212.png)
+![image-20191112212429212](https://github.com/stanedward1/new-team/blob/master/17411-llb/img/image-20191112212429212.png)
 
 
 
 - 然后推送
 
-![image-20191112212621060](C:\江南烧酒的dell笔记本\文档\创客基地\17411的第一次任务文档\img\image-20191112212621060.png)
+![image-20191112212621060](https://github.com/stanedward1/new-team/blob/master/17411-llb/img/image-20191112212621060.png)
 
-![image-20191112212641249](C:\江南烧酒的dell笔记本\文档\创客基地\17411的第一次任务文档\img\image-20191112212641249.png)
+![image-20191112212641249](https://github.com/stanedward1/new-team/blob/master/17411-llb/img/image-20191112212641249.png)
 
 - 从现在起，只要本地作了提交，就可以通过命令：
 
@@ -199,7 +199,7 @@ git国内下载地址： https://github.com/waylau/git-for-win
 
 
 
-![image-20191112213714327](C:\江南烧酒的dell笔记本\文档\创客基地\17411的第一次任务文档\img\image-20191112213714327.png)
+![image-20191112213714327](https://github.com/stanedward1/new-team/blob/master/17411-llb/img/image-20191112213714327.png)
 
 
 
@@ -211,9 +211,9 @@ git国内下载地址： https://github.com/waylau/git-for-win
 
 
 
-![image-20191112214624582](C:\江南烧酒的dell笔记本\文档\创客基地\17411的第一次任务文档\img\image-20191112214624582.png)
+![image-20191112214624582](https://github.com/stanedward1/new-team/blob/master/17411-llb/img/image-20191112214624582.png)
 
-![image-20191112214645478](C:\江南烧酒的dell笔记本\文档\创客基地\17411的第一次任务文档\img\image-20191112214645478.png)
+![image-20191112214645478](https://github.com/stanedward1/new-team/blob/master/17411-llb/img/image-20191112214645478.png)
 
 - 我们创建`dev`分支，然后切换到`dev`分支： `git checkout`命令加上`-b`参数表示创建并切换，相当于以下两条命令：
 
@@ -224,13 +224,13 @@ git国内下载地址： https://github.com/waylau/git-for-win
 
 - 然 后，用`git branch`命令查看当前分支： 用`git checkout`加上原分支名回去
 
-![image-20191113152346902](C:\江南烧酒的dell笔记本\文档\创客基地\17411的第一次任务文档\img\image-20191113152346902.png)
+![image-20191113152346902](https://github.com/stanedward1/new-team/blob/master/17411-llb/img/image-20191113152346902.png)
 
-- 把`dev`分支的工作成果合并到`master`分支上： ![image-20191113152430909](C:\江南烧酒的dell笔记本\文档\创客基地\17411的第一次任务文档\img\image-20191113152430909.png)
+- 把`dev`分支的工作成果合并到`master`分支上： ![image-20191113152430909](https://github.com/stanedward1/new-team/blob/master/17411-llb/img/image-20191113152430909.png)
 
 - 删除dev分支
 
-- ![image-20191113152530359](C:\江南烧酒的dell笔记本\文档\创客基地\17411的第一次任务文档\img\image-20191113152530359.png)
+- ![image-20191113152530359](https://github.com/stanedward1/new-team/blob/master/17411-llb/img/image-20191113152530359.png)
 
 - 解决冲突（当Git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成。
 
@@ -238,9 +238,9 @@ git国内下载地址： https://github.com/waylau/git-for-win
 
   用`git log --graph`命令可以看到分支合并图。）
 
-- ![image-20191113160405314](C:\Users\江南烧酒\AppData\Roaming\Typora\typora-user-images\image-20191113160405314.png)
+- ![image-20191113160405314](https://github.com/stanedward1/new-team/blob/master/17411-llb/img/image-20191113160405314.png)
 
-  ![image-20191113160446137](C:\江南烧酒的dell笔记本\文档\创客基地\17411的第一次任务文档\img\image-20191113160446137.png)
+  ![image-20191113160446137](https://github.com/stanedward1/new-team/blob/master/17411-llb/img/image-20191113160446137.png)
 
 - 
 
