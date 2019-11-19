@@ -85,7 +85,7 @@ git国内下载地址： https://github.com/waylau/git-for-win
 
   
 
-  ![image-20191112205300631](C:\江南烧酒的dell笔记本\文档\创客基地\17411的第一次任务文档\img\image-20191112205300631.png)
+  ![image-20191112205300631](img\image-20191112205300631.png)
 
   
 
@@ -111,7 +111,7 @@ git国内下载地址： https://github.com/waylau/git-for-win
 
 -  Git提供了一个命令`git reflog`用来记录你的每一次命令： 
 
-![image-20191112205448572](C:\江南烧酒的dell笔记本\文档\创客基地\17411的第一次任务文档\img\image-20191112205448572.png)
+![image-20191112205448572](img\image-20191112205448572.png)
 
 -  每次修改，如果不用`git add`到暂存区，那就不会加入到`commit`中。 
 
@@ -157,7 +157,7 @@ git国内下载地址： https://github.com/waylau/git-for-win
 
   
 
-  ![image-20191112211004377](C:\江南烧酒的dell笔记本\文档\创客基地\17411的第一次任务文档\img\image-20191112211004377.png)
+  ![image-20191112211004377](img\image-20191112211004377.png)
 
 
 
@@ -165,7 +165,7 @@ git国内下载地址： https://github.com/waylau/git-for-win
 
 
 
-![image-20191112212429212](C:\江南烧酒的dell笔记本\文档\创客基地\17411的第一次任务文档\img\image-20191112212429212.png)
+![image-20191112212429212](img\image-20191112212429212.png)
 
 
 
